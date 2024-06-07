@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined{
+    color: rgb(62, 62, 62);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header img{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.header_left i{
+    cursor: pointer;
+}
+
+.header_search{
+    display: flex;
+}
+
+.header_search form{
+    display: flex;
+    /* border: 1px solid grey; */
+}
+
+.header_search form input{
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* margin-left: 0px; */
+    padding-left: 10px;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.header_search button{
+    margin-left: 10px;
+    padding: 0.8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    right: 10px;
+    border: 1px solid black;
+}
+
+.main{
+    display: flex;
+
+}
+
+.sidebar{
+    width: 230px;
+    height: 90vh;
+    /* background-color: bisque; */
+}
+
+.sidebar_categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar_category{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.sidebar_category span{
+    margin-left: 15px;
+}
+
+.sidebar_category:hover{
+    background-color: grey;
+    width: 90%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.videos{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-top: 2px solid black;
+}
+
+.video_conatainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.video-thumbnail img{
+    width: 100%;
+    height: 150px;
+}
+
+.video-details{
+    display: flex;
+}
+
+.author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
