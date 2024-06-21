@@ -17,6 +17,10 @@
   --image-grayscale: 25%;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -106,12 +110,12 @@ nav img {
 nav ul .icon{
   /* background-color: var(--light-green-color); */
   background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page259/aria/assets/images/hexagon-green.svg);
-  width: 15px;
+  width: 19px;
   height: 13px;
   text-align: center;
-  padding: 0.5rem;
+  padding: 1rem;
   cursor: pointer;
-  /* clip-path: polygon(0% 25%, 100% 25%, 100% 75%, 25% 75%, 0% 50%, 25% 25%); */
+  clip-path: polygon(0% 25%, 100% 25%, 100% 75%, 25% 75%, 0% 50%, 25% 25%);
 }
 
 nav ul .icon:hover{
@@ -120,6 +124,10 @@ nav ul .icon:hover{
 
 nav ul .icon:hover a{
   color: var(--light-green-color);
+}
+
+.icon .hexagon:hover{
+  opacity: 0.5;
 }
 
 nav ul {
